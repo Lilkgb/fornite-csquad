@@ -5,9 +5,8 @@ body {
 .welcome {
   text-align: center;
   font-size: 80px;
-  text-shadow: 2px 2px 30px purple;
+  text-shadow: 2px 2px 30px purple, 0 0 1em blue, 0 0 0.2em blue;
   text-decoration: underline;
-  line-height: 50%;
 }
 #mainlink {
   text-align: center;
@@ -16,7 +15,13 @@ body {
   background-color: rgba(255,255,255,0.2);
 }
 a {
-  color: black;
+  color: white;
   font-size: 30px;
   text-shadow: 2px 2px 20px blue;
+}
+.welcome h1 {
+  background-color: rgba(100,100,100,0.5)
+}
+a:hover {
+  color: teal;
 }
